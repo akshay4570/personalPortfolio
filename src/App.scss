@@ -1,10 +1,9 @@
 .app{
-  width: max-content;
-  height: max-content;
+  margin: 0.5%;
 }
-.app__container {
-  padding: 1%;
-}
+// .app__container {
+//   padding: 1%;
+// }
 
 .app__row {
   display: flex;
@@ -14,10 +13,12 @@
       .app__sidebar{
         width: 90%;
         height: 50%;
+        margin: 1% 4%;
       }
       .app__maincontent{
         width: 90%;
         height: 50%;
+        margin: 1% 4%;
       }
     }
 }
@@ -25,10 +26,12 @@
 .app__sidebar{
   width: 20%;
   height: 100%;
+  margin: 0;
 }
 
 .app__maincontent{
   width: 80%;
   height: 100%;
+  margin: 0;
 }
  
