@@ -1,0 +1,12 @@
+.projects {
+    height: 91vh;
+    padding: 3%;
+    overflow-y: auto;
+}
+
+.project__card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}

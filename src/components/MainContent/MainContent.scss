@@ -1,0 +1,15 @@
+.MainContent{
+    background-color: #1A1A40;
+    color: #000;
+
+    border-radius: 20px;
+    box-shadow: 0 0 10px white;
+
+    margin: 0 1.5%;
+    padding: 1%;
+    text-align: center;
+
+    @media screen and (max-width: 900px) {
+      margin: 3% 1%;
+    }
+}

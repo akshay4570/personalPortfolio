@@ -1,0 +1,139 @@
+.sidebar__container{
+    background-color: #1A1A40;
+
+    border-radius: 20px;
+    box-shadow: 0 0 10px white;
+
+    margin: 0 1%;
+    padding: 1%;
+    text-align: center;
+
+}
+
+.sidebar__profile{
+    height: 40%;
+    width: 40%;
+    margin: 3% 0;
+    padding: 1%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px white;
+    border-color: white;
+}
+
+.sidebar__name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 160%;
+    margin: 0 1%;
+    color: white;
+
+    @media (max-width: 900px){
+        font-size: 250%;
+    }
+    span{
+        font-family: sans-serif;
+        font-weight: 100;
+        font-size: 65%;
+        
+    }
+}
+
+.sidebar__summary{
+    width: 85%;
+
+    background-color: transparent;
+    margin: 8% 6%;
+    padding: 0.1% 2%;
+    border-radius: 5px;
+    border-color: white;
+    box-shadow: 0 0 10px white;
+    justify-content: center;
+    align-items: center;
+
+    p{
+        color: white;
+        text-align: center;
+        font-weight: 200;
+        font-family: sans-serif;
+        font-size: 100%;
+
+        @media (max-width: 900px){
+            font-size: 150%;
+        }
+    }
+}
+
+.sidebar__resume-button{
+    padding: 4%;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    width: 87%;
+    border: 0;
+    cursor: pointer;
+
+    .sidebar__resume-icon{
+        position: relative;
+        width:10%;
+        height: 1%;
+        margin-left: 0;
+    }
+
+    span{
+        top : 0;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    @media (max-width: 900px){
+        font-size: 150%;
+    }
+}
+
+.sidebar__socialMedia-list{
+    margin: 4% 1%;
+    padding: 2%;
+    .sidebar__socialMedia{
+        margin: 5% 6%;
+        width: 20%;
+        height: 10%;
+        cursor: pointer;
+
+        @media (max-width: 900px){
+            width: 10%;
+            height: 10%;
+            margin: 5% 10%;
+        }
+    }
+}
+
+.sidebar__email{
+    button{
+        color: white;
+        background-color: transparent;
+        width: 85%;
+        margin: 5% 5%;
+        padding: 5%;
+        border-radius: 5px;
+        cursor: pointer;
+        border-color: white;
+    }
+}
+
+.sidebar__address{
+    padding: 5%;
+    margin: 6%;
+    background-color: rgb(255, 115, 0);
+    border-radius: 5px;
+    p{
+        color: white;
+        font-size: 100%;
+
+        @media (max-width: 900px){
+            font-size: 150%;
+        }
+    }
+}
+

@@ -12,9 +12,37 @@
   --white-color: #ffffff;
 }
 
-* {
+html,body {
+	position:absolute;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+  background-color: black;
+  font-family: sans-serif;
+}
+
+/* * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  left:0;
+	top:0;
+	right:0;
+	bottom:0;
   scroll-behavior: smooth;
+} */
+
+::-webkit-scrollbar {
+  width: 16px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #e4e4e4;
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #702aa8;
+  border-radius: 100px;
 }

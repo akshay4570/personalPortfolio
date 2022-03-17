@@ -1,0 +1,60 @@
+.profile{
+    width: 100%;
+}
+.profile__heading{
+    color: white;
+    margin: 1%;
+    padding: 2%;
+
+    span{
+        border-bottom: 4px solid #00F260;
+    }
+}
+
+.profile__github-calendar{
+    margin: 1% 2%;
+    box-shadow: 0 0 10px white;
+    border-radius: 10px;
+}
+
+.profile__coding-platforms{
+    margin: 1% 2%;
+    padding: 0 2%;
+    box-shadow: 0 0 10px white;
+    border-radius: 10px;
+}
+
+.profile__cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1% 2%;
+    padding: 2%;
+}
+
+.profile__element{
+    background-color: #8A39E1;
+    width: 45%;
+    margin: 2%;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+.profile__img{
+    margin-top: 1%;
+}
+
+.profile__img{
+
+    .profile__images{
+        width: 15%;
+        height: 1%;
+        margin: 2%;
+        padding: 2%;
+        color: white;
+    }
+}

@@ -1,0 +1,75 @@
+.skills__border{
+    border-bottom: 4px solid #ff5e00;
+    width: 100%;
+    margin: 2% 0;
+}
+
+.skills__title {
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: white;
+    margin-bottom: 2%;
+    text-align: left;
+
+    span{
+        border-bottom: 4px solid #00F260;
+    }
+  }
+  
+  .vertical-timeline-element-content {
+    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+      0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  }
+  
+  .date {
+    color: rgb(201, 251, 255);
+  }
+  
+  .skills__description {
+    text-align: left;
+    margin: 1%;
+  }
+  
+  .vertical-timeline-element-title{
+      text-align: left;
+  }
+  @media only screen and (max-width: 1700px) {
+    .vertical-timeline-element-date {
+      display: block !important;
+      float: none !important;
+      color: rgb(44, 44, 44);
+      margin-top: 1.5em;
+    }
+  }
+
+  .skills__container{
+      width: 100%;
+      // margin: 2%;
+      // padding: 2%;
+      
+  }
+
+  .skills__card{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1% 2%;
+    padding: 2%;
+  }
+
+  .skills__element{
+    width: 18%;
+    margin: 1% 1%;
+    padding: 2%;
+    // height: 50%;
+    box-shadow: 10px 10px 30px #000000;
+    border-radius: 10px;
+    // background-color: white;
+
+    img{
+        width: 80%;
+        height: 100px;
+        border-radius: 5px;
+    }
+  }

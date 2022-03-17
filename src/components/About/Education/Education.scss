@@ -1,0 +1,42 @@
+
+.education__title {
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: white;
+    border-bottom: 4px solid #00F260;
+    margin-bottom: 2%;
+  }
+  
+  .vertical-timeline-element-content {
+    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+      0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  }
+  
+  .date {
+    color: rgb(201, 251, 255);
+  }
+  
+  #description {
+    text-align: left;
+  }
+  
+  .vertical-timeline-element-title{
+      text-align: left;
+  }
+  @media only screen and (max-width: 1700px) {
+    .vertical-timeline-element-date {
+      display: block !important;
+      float: none !important;
+      color: rgb(44, 44, 44);
+      margin-top: 1.5em;
+    }
+  }
+
+
+.education__cgpa{
+    margin-top: 3%;
+
+    span{
+        margin: 0 10%;
+    }
+}
