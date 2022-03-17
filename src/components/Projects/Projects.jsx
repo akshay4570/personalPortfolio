@@ -17,7 +17,7 @@ const project_variants = {
     }
 }
 const Projects = () => {
-    const [project, setProject] = useState(projectDetails);
+    const [project] = useState(projectDetails);
     return (
         <motion.div className="projects"
                 variants={project_variants}

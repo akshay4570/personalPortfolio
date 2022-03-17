@@ -44,13 +44,13 @@ function Sidebar() {
             </div>
             <div className="sidebar__summary">
                 <p className="p-text">
-                    Competitive programmer, Tech Enthusiast, Web Developer, Sports freak.
+                    Competitive programmer, Tech Enthusiast, Frontend Developer.
                 </p>
             </div>
             {/* <div className="sidebar__resume"> */}
                 <button className="sidebar__resume-button">
                     <GiTie className="sidebar__resume-icon"/>
-                    <a href={images.Resume} target="_blank">View Resume</a>
+                    <a href={images.Resume} target="_blank" rel="noreferrer">View Resume</a>
                 </button>
             {/* </div> */}
             <div className="sidebar__socialMedia-list">

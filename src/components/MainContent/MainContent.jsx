@@ -1,7 +1,7 @@
-import React, {useState,useEffect} from 'react';
+import React from 'react';
 import {motion} from 'framer-motion';
 import './MainContent.scss';
-import { BrowserRouter as Router, Navigate, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router,Route, Routes } from 'react-router-dom';
 
 import {Navbar,About,Projects,Skills,Profile} from '../../components';
 
