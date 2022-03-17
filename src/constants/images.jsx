@@ -24,7 +24,7 @@ import salesforce from '../assets/salesforce.png';
 import vscode from '../assets/vscode.jpg';
 import jenkins from '../assets/jenkins.jpg';
 
-export default {
+const images = {
     cpp,
     css,
     git,
@@ -51,3 +51,5 @@ export default {
     vscode,
     jenkins,
 };
+
+export default images;
